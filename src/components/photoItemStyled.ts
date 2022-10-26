@@ -5,25 +5,18 @@ import styled, { } from "styled-components"
 } */
 export const PhotoStyled  = styled.div ` /* <setSizeProps> */
 background-color:rgba(0, 0, 0, 0.59);
-width:91.6%;
-//border-radius:10px;
-
+width:90%;
+border-radius:10px;
 padding:10px;
 color: white;
-
-
-
-
-
     img{
     width:100%;
     height:150px;
     display:block;
     border-radius:10px;
     margin-bottom:10px;
-  
 
-}
+    }
 
 
 `

@@ -163,16 +163,17 @@ const App = () => {
           <LoadedScreenStyle>
 
             {photosBox.map((item, index) => (
-              <>
-
+              <div>
                 <a href="" onClick={(e) => handlePhotoClick(e, item.url)}>
 
                   <PhotoItem key={index} url={item.url} name={item.name} />
-                  <button onClick={() => deletePhoto(item.name)} >Apagar 🗑️</button>
+
 
                 </a>
+                <button onClick={() => deletePhoto(item.name)} >Apagar 🗑️</button>
+              </div>
 
-              </>
+
 
 
 

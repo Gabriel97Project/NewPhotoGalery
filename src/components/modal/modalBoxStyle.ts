@@ -30,15 +30,23 @@ export const ModalStyle = styled.div`
 `
 
 export const ModalSonStyle = styled.div`
-    width:40%;
-    height:80%;
-    background-color:white;
+    width:50%;
+    height:70%;
+    //background-color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
     border-radius:10px;
     img{
     width:100%;
     height:100%;
     display:block;
     border-radius:10px;
+    @media (max-width: 500px) {
+        width:100%;
+        height:70%;
+        
+    }
 
 
 
